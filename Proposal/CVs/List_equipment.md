@@ -1,6 +1,8 @@
 # List of test equipment
 Available Test Equipments
 
+[TO FINISH AND THEN SAVE AS PDF]
+
 --- 
 ### Table of test equipment
 | Equipment | Intended use | Availability|
