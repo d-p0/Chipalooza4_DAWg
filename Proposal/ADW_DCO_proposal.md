@@ -75,7 +75,7 @@ To be updated after simulation. All frequency rows are placeholders until band r
 | Temperature | -20 °C | | 120 °C |
 
 Absolute limits: supply must not exceed the 1.8 V device rating (to confirm in the PDK documentation).
----
+
 
 ### Test-plan outline
 
