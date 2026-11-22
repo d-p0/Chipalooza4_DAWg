@@ -3,17 +3,15 @@
 ## Risks to check
 
 - Maximum switching speed of the harness digital outputs (sets how much division is needed).
-- Ring oscillator frequency varies a lot with the manufacturing process and temperature, so we report the measured spread honestly rather than a tight number.
-- Jitter will be reported as a result, not a target.
-- Confirm with the organisers that a DCO counts as an accepted analogue block.
+- Jitter
 
 ## Research to do before fixing the spec
 
 - Find the harness's maximum digital output frequency (template repo and FAQ). This sets the divider ratios.
 - Find what clock frequencies digital designers actually want (SPI, microcontroller and peripheral clocks).
 - Simulate a current-starved ring in Sky130 to see the achievable frequency per stage count, and set the bands from that.
-- Check whether a pre-existing DAC is available and allowed.
-- Ask the engineer what "time-based filter at start and end" and "different ranges" meant.
+- Check whether a pre-existing DAC is available and allowed/ collab w other 
+- consider "time-based filter at start and end" and "different ranges" meant.
 
 - ## Potential extensions
 | Stage | Block | What it is and what it is used for |
